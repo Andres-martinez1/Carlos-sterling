@@ -10,7 +10,7 @@ echo "BIENVENIDO AL CAJERO AUTOMATICO EL DESCONTROL"."\n",
 $opcion = readline("Ingrese el numero de la opcion que desea realizar:");
 
 if ($opcion == "1"){
-    echo "¿Cuanto dinero desea ingresar?";
+    readline ("¿Cuanto dinero desea ingresar?");
     }
 if ($opcion == "2"){
 echo "Tu saldo hasta el momento es:";

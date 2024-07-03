@@ -9,7 +9,7 @@ echo "BIENVENIDO AL CAJERO AUTOMATICO EL DESCONTROL" . "\n",
 "{2} Consultar saldo." . "\n",
 "{3} Consultar dinero." . "\n",
 "{4} Retirar dinero." . "\n",
-"{0} Salir." . "\n";
+"{5} Salir." . "\n";
 
 while (true) {
     $opcion = readline("Ingrese el número de la opción que desea realizar:");
@@ -45,7 +45,7 @@ while (true) {
             }
             break;
         
-        case 0:
+        case 5:
             echo "Gracias por utilizar nuestro cajero automático. ¡Hasta luego!\n";
             exit;
         

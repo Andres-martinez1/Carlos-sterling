@@ -35,7 +35,7 @@ while (true) {
         
         case 4:
             $dinero_retirar = (float)readline("¿Cuánto dinero deseas retirar? ");
-            if ($dinero_retirar > 0 && $dinero_retirar <= $saldo) {
+            if ($dinero_retirar > 0 and $dinero_retirar <= $saldo) {
                 $saldo -= $dinero_retirar;
                 echo "Retiro de $dinero_retirar exitoso\n";
             } elseif ($dinero_retirar > $saldo) {
